@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">      
+        <title>Projeto Churrasco</title>
+    </head>
+  <body>
+    <div class="container">
+      <div class="grid">
+          <div class="text-content">
+                <h1>Projeto Churrasco</h1>
+                <img src="./img.svg" alt="">
+            </div>
+        
+            <div class="box-calculo">
+                <img src="./churraslogo.png" alt="">
+                <div class="form">
+                    <div class="input-block">
+                        <label for="adultos">Quantidade de adultos</label>
+                        <input type="number" name="adultos" id="adultos" placeholder="Adultos">
+                    </div>
+                    <div class="input-block">
+                        <label for="criancas">Quantidade de crianças</label>
+                        <input type="number" name="criancas" id="criancas" placeholder="Crianças">
+                    </div>
+                    <div class="input-block">
+                        <label for="duracao">Duração do churrasco</label>
+                        <input type="number" name="duracao" id="duracao" placeholder="Quantidade de horas">
+                    </div>
+                       <div class="input-block">
+                            <button onclick="calcular()">Calcular</button>
+                        </div>
+                    </div>
+                    <div id="resultado"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+  
+
+</body></html>
